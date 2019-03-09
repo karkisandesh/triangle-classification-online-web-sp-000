@@ -5,7 +5,7 @@ class Triangle
     @height = height 
   end 
   
-  def kind(:equilateral, :isosceles, :scalene)
+  def kind (:equilateral, :isosceles, :scalene)
       raise TriangleError
   end
 
