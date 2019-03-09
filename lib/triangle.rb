@@ -6,7 +6,11 @@ class Triangle
   end 
   
   def kind(:equilateral, :isosceles, :scalene)
-    
+      raise TriangleError
   end
+
+class TriangleError < StandardError 
+   
+end
 
 end
