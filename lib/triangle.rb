@@ -1,5 +1,5 @@
 class Triangle
-  def initialize(length, breadth, height)
+  def initialize(length1, breadth, height)
     @length = length 
     @breadth = breadth 
     @height = height 
